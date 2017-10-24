@@ -1,5 +1,5 @@
 main{
-	padding: 70px 0 ;
+	padding: 140px 0 ;
 	background-color: #2BBDE0;
 }
 
@@ -80,4 +80,14 @@ main{
 	.content,.footer_1 button{
 		width: 60%;
 	}
+	.content{
+		height: 500px;
+	}
+	
+}
+@media  screen and (max-width: 550px) {
+	main{
+		padding: 60px 0;
+	}
+	
 }

@@ -30,7 +30,9 @@ function match() {
 		$("span").eq(killsArr).css("background-color", "#2BBDE0");
 	}
 	}
-	
+	var palyers = new Array;
+	palyers.length = TotalNum;
+	console.log(palyers);
 
 	localStorage.setItem("TotalArrStr", TotalNum);
 	console.log("数组变成字符串存储" + TotalNum);
