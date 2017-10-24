@@ -215,3 +215,9 @@ footer div {
 .b_l{
 	border-right: solid 1px #CCCCCC;
 }
+@media only screen and (max-width:450px ) {
+	.kill_ident {
+		font-size: 12px;
+		text-indent: 40px;
+	}
+}

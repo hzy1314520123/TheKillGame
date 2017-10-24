@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="./css/killgame-reset.css" />
+		<link rel="stylesheet" type="text/css" href="./css/killgame-common.css" />
+		<link rel="stylesheet" href="./font7/iconfont.css" />
+		<link rel="stylesheet" href="./css/gameflow.css" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	</head>
+
+	<body class="centerw">
+		<div class="bg-model centerw">
+			<div class='content'>
+				<div class="content_p">请死者亮明身份并且发表遗言</div>
+				<div class="content_d">
+					<div class="b_l">取消</div>
+					<div class="b_r">确认</div>
+				</div>
+			</div>
+		</div>
+		<header class=" nav centerw fiexdt ">
+			<audio src="./audio/财富自由.mp3" autoplay="autoplay"></audio>
+			<a class="iconfont icon-xiangzuo l" href="diary.html"></a>
+			<p>法官台本</p>
+			<a class="iconfont icon-cha r" onclick="backa()"></a>
+		</header>
+		<main class="content-part">
+			<div class="date_nb">
+				<div class="date_nb1">
+					第一天
+				</div>
+				<span class="iconfont icon-xiangshang gf_one"></span>
+				<div class="gameflow gf_one">
+					<div class="gameflow1">
+						<div class="killer killmen killer_dayone">
+							<img src="images/sun.png" />
+							<span class="iconfont icon-xiangzuo1"></span>
+							<p onclick="killing()">杀手杀人</p>
+						</div>
+						<div class="kill_ident kill_dayone">
+							<span>3号被投票投死了，真事身份是平民</span>
+						</div>
+						<div class="killer" id="last_word" onclick="last_word()">
+							<img src="images/moon.png" />
+							<span class="iconfont icon-xiangzuo1"></span>
+							<p>亡灵发表遗言</p>
+						</div>
+
+						<div class="killer" id="state" onclick="state()">
+							<span class="iconfont icon-xiangzuo1"></span>
+							<p>玩家依次发言</p>
+						</div>
+
+						<div class="killer voter_dayone">
+							<span class="iconfont icon-xiangzuo1"></span>
+							<p onclick="vote()">全民投票</p>
+						</div>
+
+						<div class="vote_ident vote_dayone">
+							<span>3号被投票投死了，真事身份是平民</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div class="footerbg  centerw fiexdb"></div>
+		<footer class="centerw fiexdb">
+			<div class="againone l">
+				<a onclick="wanshan()">结束游戏</a>
+			</div>
+			<div class="uloading r" onclick="rizhi()">法官日志</div>
+		</footer>
+	</body>
+</html>
+<script src="./js/gameflow.js"></script>

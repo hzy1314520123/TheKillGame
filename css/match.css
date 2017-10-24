@@ -178,7 +178,7 @@ input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
     height: 35px;
     width: 60px;
-    background: url(../images/设置页面_04.png) center no-repeat;
+    background: url(../images/buttn.png) center no-repeat;
     background-size: 100%;
     border: solid 2px orange;
     border-radius: 4px;

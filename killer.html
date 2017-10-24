@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>投票</title>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="./css/killgame-reset.css" />
+		<link rel="stylesheet" type="text/css" href="./css/killgame-common.css" />
+		<link rel="stylesheet" href="./font7/iconfont.css" />
+		<link rel="stylesheet" href="./css/killer.css" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	</head>
+
+	<body class="centerw">
+		<div class="bg-model centerw">
+			<div class='content1'>
+				<div class="content_p">你是杀手不能杀死本职业，请选择其他玩家杀死</div>
+				<div class="content_d">
+					<div class="b_l">取消</div>
+					<div class="b_r">确认</div>
+				</div>
+			</div>
+		</div>
+		<header class=" nav centerw fiexdt">
+			<audio src="../audio/财富自由.mp3" autoplay="autoplay"></audio>
+			<p>杀手杀人</p>
+			<span class="iconfont icon-cha r"></span>
+		</header>
+		<div class="subnav">
+			<p>杀手请睁眼，杀手请选择要杀的对象 <span class="subnav-btn r"></span></p>
+			<span class="iconfont icon-xia"></span>
+		</div>
+		<main>
+			<div class="msg">点击下方玩家头像，对被杀的玩家进行标记</div>
+			<div class="vote ovfl"></div>
+		</main>
+		<footer class="footer-btn  fiexdb centerw">
+			<div class="footer-title">
+				<a onclick="nokill()">确定</a>
+			</div>
+		</footer>
+	</body>
+</html>
+<script src="../js/killer.js"></script>

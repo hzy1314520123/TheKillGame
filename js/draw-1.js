@@ -26,7 +26,7 @@
 	function CheckiDentity() {
 		$("#check").text("查看" + (TotalNum + 2) + "号身份");
 		$(".role").text(""); //这个页面不显示身份
-		$(".content img").attr("src", "../images/翻牌_03.png"); //显示图片1
+		$(".content img").attr("src", "images/darw.png"); //显示图片1
 		$(".circle").text(TotalNum + 2);
 		TotalNum++;
 		console.log("编号" + TotalNum);
@@ -40,7 +40,7 @@
 			$("#check").text("隐藏并传递到" + (TotalNum + 2) + "号");
 		}
 		$(".role").text("角色：平民");
-		$(".content img").attr("src", "../images/翻牌-2_03.png"); //显示图片2
+		$(".content img").attr("src", "images/role.png"); //显示图片2
 		
 		for(var i = 0; i < killstr.length; i++) {
 		var killsArr = killstr[i];
